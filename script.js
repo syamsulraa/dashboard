@@ -1,22 +1,19 @@
 let viz;
 
 const vizUrls = {
-  BarChart: "https://public.tableau.com/views/YOUR_BARCHART_URL",
-  LineChart: "https://public.tableau.com/views/YOUR_LINECHART_URL",
-  PieChart: "https://public.tableau.com/views/YOUR_PIECHART_URL",
-  MapChart: "https://public.tableau.com/views/YOUR_MAPCHART_URL",
-  ScatterPlot: "https://public.tableau.com/views/YOUR_SCATTERPLOT_URL",
-  BubbleChart: "https://public.tableau.com/views/YOUR_BUBBLECHART_URL",
-  TreeMap: "https://public.tableau.com/views/YOUR_TREEMAP_URL",
-  GanttChart: "https://public.tableau.com/views/YOUR_GANTTCHART_URL",
-  LollipopChart: "https://public.tableau.com/views/YOUR_LOLLIPOPCHART_URL",
-  WordCloud: "https://public.tableau.com/views/YOUR_WORDCLOUD_URL",
-  BoxPlot: "https://public.tableau.com/views/YOUR_BOXPLOT_URL",
-
-  // ✅ Histogram Chart dengan URL yang kamu berikan
+  BarChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10/Dashboard1",
+  LineChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Line_Chart/Dashboard1",
+  PieChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10_Pie_Chart/Dashboard1",
+  MapChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Map_Chart/Dashboard1",
+  ScatterPlot: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Scatter_Plot_Chart/Dashboard1",
+  BubbleChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Bubble_Chart/Dashboard1",
+  TreeMap: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Tree_Map/Dashboard1",
+  GanttChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Gantt_Chart/Dashboard1",
+  LollipopChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Lollipop_Chart/Dashboard1",
+  WordCloud: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Word_Cloud/Dashboard1",
+  BoxPlot: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Box_Plot/Dashboard1",
   Histogram: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Histogram_Chart/Dashboard1",
-
-  Dashboard: "https://public.tableau.com/views/YOUR_DASHBOARD_URL"
+  Dashboard: ""https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1""
 };
 
 function loadViz(chartType) {
