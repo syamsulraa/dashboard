@@ -1,4 +1,4 @@
-let viz;
+zlet viz;
 
 const chartLinks = {
   BarChart: 'https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10/Dashboard1',
