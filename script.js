@@ -12,6 +12,7 @@ const chartLinks = {
   LollipopChart: 'https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Lolipop_Chart/Dashboard1',
   WordCloud: 'https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Word_Cloud/Dashboard1',
   BoxPlot: 'https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Box_Pilot/Dashboard1',
+  HitogramChart:'https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project_Histogram_Chart/Dashboard1',
   Dashboard: 'https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'
 };
 
