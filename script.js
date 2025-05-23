@@ -13,8 +13,11 @@ const vizUrls = {
   WordCloud: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Word_Cloud/Dashboard1",
   BoxPlot: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Box_Plot/Dashboard1",
   Histogram: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Histogram_Chart/Dashboard1",
-  Dashboard: ""https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1""
+  
+  // ✅ Perbaikan tanda kutip di sini:
+  Dashboard: "https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1"
 };
+
 
 function loadViz(chartType) {
   const containerDiv = document.getElementById("vizContainer");
