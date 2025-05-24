@@ -12,16 +12,16 @@ html, body {
 body {
   display: flex;
   height: 100vh;
-  overflow: hidden; /* Hindari scroll ganda */
+  overflow: hidden; /* Cegah scroll ganda */
 }
 
 .sidebar {
   width: 220px;
-  background-color: #f5deb3; /* Warna coklat muda */
+  background-color: #f5deb3; /* Coklat muda */
   padding: 20px;
   border-right: 1px solid #ccc;
   height: 100vh;
-  overflow-y: auto; /* Aktifkan scroll jika isi melebihi tinggi layar */
+  overflow-y: auto; /* Scroll jika konten terlalu panjang */
   display: flex;
   flex-direction: column;
   font-size: 13px; /* Ukuran font kecil */
@@ -30,6 +30,7 @@ body {
 .sidebar h2 {
   margin-bottom: 15px;
   font-size: 16px;
+  text-align: center;
 }
 
 .sidebar a {
@@ -38,7 +39,6 @@ body {
   color: #333;
   text-decoration: none;
   cursor: pointer;
-  font-size: 13px;
 }
 
 .sidebar a:hover {
