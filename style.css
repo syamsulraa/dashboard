@@ -16,6 +16,7 @@ body {
   padding: 20px;
   border-right: 1px solid #ccc;
   height: 100vh; /* Pastikan tinggi penuh halaman */
+  overflow-y: auto; /* Scroll jika kontennya panjang */
 }
 
 .sidebar h2 {
