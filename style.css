@@ -5,6 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   height: 100vh;
@@ -15,7 +19,7 @@ body {
   background-color: #f5deb3; /* Warna coklat muda */
   padding: 20px;
   border-right: 1px solid #ccc;
-  height: 100vh; /* Pastikan tinggi penuh halaman */
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
