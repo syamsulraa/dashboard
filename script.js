@@ -1,9 +1,9 @@
 let viz;
 
 const vizUrls = {
-  DashboardStrukturData1: "https://public.tableau.com/views/MSyamsulRizalAmri2SIMBStrukturData/Dashboard1",
-  DashboardStrukturData2: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri_2SIMB_2431011MAP_GEOSPASIAL/Dashboard6",
-  DashboardSampleSuperStore: "https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1",
+  StrukturData1: "https://public.tableau.com/views/MSyamsulRizalAmri2SIMBStrukturData/Dashboard1",
+  StrukturData2: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri_2SIMB_2431011MAP_GEOSPASIAL/Dashboard6",
+  SampleSuperStore: "https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1",
   BarChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10/Dashboard1",
   LineChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project_10_Line_Chart/Dashboard1",
   PieChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10_Pie_Chart/Dashboard1",
