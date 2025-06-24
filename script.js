@@ -3,7 +3,7 @@ let viz;
 const vizUrls = {
   StrukturData1: "https://public.tableau.com/views/MSyamsulRizalAmri2SIMBStrukturData/Dashboard1",
   StrukturData2: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri_2SIMB_2431011MAP_GEOSPASIAL/Dashboard6",
-  SampleSuperStore: "https://public.tableau.com/views/Dashboard_Visualisai_M_Syamsul_Rizal_Amri/Dashboard1",
+  SampleSuperStore: "https://public.tableau.com/views/DashboardSampleSuperStore_17507763080410/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   BarChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10/Dashboard1",
   LineChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project_10_Line_Chart/Dashboard1",
   PieChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011_Project10_Pie_Chart/Dashboard1",
@@ -15,7 +15,7 @@ const vizUrls = {
   LollipopChart: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Lolipop_Chart/Dashboard1",
   WordCloud: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Word_Cloud/Dashboard1",
   BoxPilot: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Box_Pilot/Dashboard1",
-  Histogram: "https://public.tableau.com/views/DashboardSampleSuperStore_17507763080410/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+  Histogram: "https://public.tableau.com/views/M_Syamsul_Rizal_Amri2431011Project10_Histogram_Chart/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
 };
 
 function loadViz(chartType) {
